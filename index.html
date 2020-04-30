@@ -17,9 +17,9 @@
 
   <!-- navigation bar -->
   <section>
-    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #DDDDDD">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: #DDDDDD">
       <div class="container">
-        <a class="navbar-brand" href="#" style="margin-left: 200px;">
+        <a class="navbar-brand ml-5" href="#">
           <img src="/img/logo.png" alt="brand logo" width="140" height="30">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -28,7 +28,8 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto" style="margin-right: 200px;">
+          <ul class="navbar-nav ml-auto mr-5">
+            <!-- style="margin-right: 200px;" -->
             <li class="nav-item active">
               <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
             </li>
@@ -52,17 +53,21 @@
     <div class="container-fluid">
       <div class="row banner">
         <div class="col-sm">
-          <h1 class="banner-text">We are Altratronix!</h1>
-          <p id="banner-t"><i>"resounding creativity and straightforwardness"</i></p>
+          <div class="row my-5 ml-5 pt-5">
+            <div class="col-12 pt-5" style="height: 400px;">
+              <h1 class="banner-text pt-5">We are Altratronix!</h1>
+              <p id="banner-t"><i>"resounding creativity and straightforwardness"</i></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <section>
     <div class="container">
-      <div class="row thebox">
-        <div class="col">
-          <div class="text">
+      <div class="row thebox mt-5">
+        <div class="col-md-6">
+          <div class="text mt-5 ml-5">
             <h1>Who are we?</h1>
             <p class="" style="color: rgb(163, 158, 158); font-weight: 400;">Leveraging internet based options to create
               solutions for creatives and students
@@ -71,7 +76,7 @@
           </div>
 
         </div>
-        <div class="col">
+        <div class="col-md-6 pl-5 d-md-block">
           <img class="float-right shadow mb-5 bg-white rounded img_we" src="/img/weare.jpg" alt="fist bump" srcset="">
         </div>
       </div>
@@ -79,9 +84,9 @@
   </section>
   <section style="background-color: rgba(245, 241, 241, 0.356)">
     <div class="container">
-      <h1 class="text-center pt-5 mb-5">Our Services</h1>
-      <div class="row">
-        <div class="col">
+      <h1 class="text-center pt-5 mb-5 ">Our Services</h1>
+      <div class="row ml-md-5">
+        <div class="col-md-4">
           <div class="card shadow mb-5 bg-white rounded" style="width: 18rem;">
             <img src="/img/web.jpg" class="card-img-top" alt="web design">
             <div class="card-body">
@@ -89,7 +94,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-4">
           <div class="card shadow mb-5 bg-white rounded" style="width: 18rem;">
             <img src="/img/event.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -97,7 +102,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-4">
           <div class="card shadow mb-5 bg-white rounded" style="width: 18rem;">
             <img src="/img/branding.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -106,8 +111,8 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
+      <div class="row ml-md-5">
+        <div class="col-md-4 ">
           <div class="card shadow mb-5 bg-white rounded" style="width: 18rem;">
             <img src="/img/graphic.jpg" class="card-img-top" alt="web design">
             <div class="card-body">
@@ -115,7 +120,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-4">
           <div class="card shadow mb-5 bg-white rounded" style="width: 18rem;">
             <img src="/img/music.jpg" class="card-img-top" alt="..." style="height: 190px;">
             <div class="card-body">
@@ -123,7 +128,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-4">
           <!-- <div class="card shadow mb-5 bg-white rounded" style="width: 18rem;">
             <img src="/img/advert.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -139,8 +144,8 @@
   <!-- newsletters -->
   <section>
     <div class="container">
-      <div class="row">
-        <div class="col-md-8">
+      <div class="row" style="height: 150px;">
+        <div class="col-md-12">
           <!-- Begin Mailchimp Signup Form -->
           <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
           <style type="text/css">
@@ -181,8 +186,11 @@
   <!-- footer -->
   <footer class="container mt-4">
     <div class="row">
-      <div class="col">
-        <p class="text-left">&copy;<a href="#">Altratronix 2020</a></p>
+      <div class="col-md-12">
+        <p class="text-center">
+          <span class=""></span>
+          <a href="#" style="color: black; text-decoration: none; font-weight: 500; font-size: small;">ALTRATRONIX
+            2020</a></p>
       </div>
     </div>
   </footer>
