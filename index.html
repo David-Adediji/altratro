@@ -15,34 +15,39 @@
 
 <body>
 
+  <!-- navigation bar -->
   <section>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #DDDDDD">
-      <a class="navbar-brand" href="#" style="margin-left: 200px;">
-        <img src="/img/logo.png" alt="brand logo" width="140" height="30">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #DDDDDD">
+      <div class="container">
+        <a class="navbar-brand" href="#" style="margin-left: 200px;">
+          <img src="/img/logo.png" alt="brand logo" width="140" height="30">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto" style="margin-right: 200px;">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">SERVICES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT US</a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto" style="margin-right: 200px;">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </section>
+
+  <!-- banner starts -->
   <section>
     <div class="container-fluid">
       <div class="row banner">
@@ -130,38 +135,57 @@
     </div>
     </div>
   </section>
+
+  <!-- newsletters -->
   <section>
-    <!-- Begin Mailchimp Signup Form -->
-    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-      #mc_embed_signup {
-        background: #fff;
-        clear: left;
-        font: 14px Helvetica, Arial, sans-serif;
-        width: 100%;
-      }
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <!-- Begin Mailchimp Signup Form -->
+          <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+          <style type="text/css">
+            #mc_embed_signup {
+              background: #fff;
+              clear: left;
+              font: 14px Helvetica, Arial, sans-serif;
+              width: 100%;
+            }
 
-      /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+            /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-    </style>
-    <div id="mc_embed_signup">
-      <form action="https://gmail.us8.list-manage.com/subscribe/post?u=ad87cffc893f4fbee9f46ba91&amp;id=a5132717cb"
-        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
-        novalidate>
-        <div id="mc_embed_signup_scroll">
-          <label for="mce-EMAIL">Sign up for newsletters</label>
-          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-              name="b_ad87cffc893f4fbee9f46ba91_a5132717cb" tabindex="-1" value=""></div>
-          <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
-              class="button"></div>
-        </div>
-      </form>
-    </div>
+          </style>
+          <div id="mc_embed_signup">
+            <form
+              action="https://gmail.us8.list-manage.com/subscribe/post?u=ad87cffc893f4fbee9f46ba91&amp;id=a5132717cb"
+              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+              target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+                <label for="mce-EMAIL">Sign up for newsletters</label>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address"
+                  required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                    name="b_ad87cffc893f4fbee9f46ba91_a5132717cb" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                    class="button"></div>
+              </div>
+            </form>
+          </div>
 
-    <!--End mc_embed_signup-->
+          <!--End mc_embed_signup-->
+        </div>
+      </div>
+    </div>
   </section>
+
+  <!-- footer -->
+  <footer class="container mt-4">
+    <div class="row">
+      <div class="col">
+        <p class="text-left">&copy;<a href="#">Altratronix 2020</a></p>
+      </div>
+    </div>
+  </footer>
 
   <script src="/js/bootstrap.min.js"></script>
   <script src="/js/popper.min.js"></script>
